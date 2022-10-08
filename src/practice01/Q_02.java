@@ -19,9 +19,15 @@ public class Q_02 {
 	71
 	TENIS FUTBOL VOLEYBOL
 		 */
-   public static void main(String[] args) {
-       System.out.println("189");
-       System.out.println("80");
-       System.out.println("kiyap okumak ");
-   }
+
+    public static void main(String[] args) {
+        System.out.println("Serdar Yardımcı");
+        System.out.println("190");
+        System.out.println("90");
+        System.out.println("kitap okumak ");
+
+
+
+    }
+
 }

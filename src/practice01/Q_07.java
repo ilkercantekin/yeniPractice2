@@ -5,18 +5,17 @@ import java.util.Scanner;
 public class Q_07 {
     // Question using Scanner, could you find a double number positive or negative ?
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("double türünde sayı girizniz : ");
+       Scanner scan = new Scanner(System.in);
+       System.out.println("bir double türünden sayı giriniz :");
 
-        double number = scan.nextDouble();
+       double sayi = scan.nextDouble();
 
-        if ( number<0.0){
-            System.out.println(number + " negatif sayıdır");
-
-    }else if (number>0.0){
-            System.out.println( number + " pozitif sayıdır");
-
-} else {
-            System.out.println(number + "sıfırıdr");
-
-        }}}
+       if (sayi<0.0){
+          System.out.println(sayi + " negatif sayıdır.");
+       }else if (sayi>0.0){
+          System.out.println(sayi + " pozitif sayidir");
+       }else {
+          System.out.println(sayi + " sıfırdır / nötr sayıdır.");
+       }
+    }
+   }

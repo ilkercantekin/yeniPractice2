@@ -19,17 +19,14 @@ public class Q_09 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("galon cinsinden litre cinsine çeviri yapılacak miktarı giriniz : ");
+        System.out.println("galonu litreye çevirmek için galon cinsinden birim giriniz : ");
 
         double gallon = scan.nextDouble();
 
-
-
         double litre = gallon * 3.785;
 
-        String sonuç = gallon + " galon değeri " + litre + " litredir .";
-        System.out.println(sonuç);
-
+        System.out.println(gallon + " gallon degeri " + litre + " litredir" );
 
     }
+
 }

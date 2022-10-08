@@ -19,8 +19,8 @@ public class Q_08 {
 
         double sum = num1+num2+num3+num4+num5;
 
-        double ort = sum/5;
-        System.out.println(ort);
+        double avarage = sum / 5 ;
 
+        System.out.println("avarage = " + avarage );
     }
 }
