@@ -1,20 +1,10 @@
 package practice02;
 
 public class Q_20 {
-    /*
-     * SORU 3
-            *
-            * Kullanicidan boyunu cm olarak, kilosunu kilogram olarak alin
-         * ve vucut kutle endeksini bulun.
-         * Sonucu tamsayi ve ondalikli sayi olarak yazdirin
-         *
-                 * VKE= kilo/(boy*boy) .. Kilo : kilogram , Boy : metre olmalidir
-         *
-                 * Ornek : Input : boy :180 kilo : 80
-            *         Output : Vucut kutle endeksiniz : 24
-            *                  Vucut kutle endeksiniz : 24.691
-            *
-            *
-            */
+    // Interview Question Kullanicidan 100’den kucuk bir tamsayi isteyin.
+    //        1’den baslayarak girilen sayiya kadar tum sayilari yazdirin. Ancak;
+    //		- Sayi 3’un kati ise sayi yerine “Java” yazdirin.
+    //		- Sayi 5’in kati ise sayi yerine “Guzeldir” yazdirin.
+    //		- Sayi hem 3’un hem 5’in kati ise sayi yerine “Java Guzeldir” yazdirin.
 
 }

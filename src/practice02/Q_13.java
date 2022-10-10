@@ -1,8 +1,10 @@
 package practice02;
 
+import java.util.Scanner;
+
 public class Q_13 {
     /*
-     * SORU 3
+     *
      *
      * Kullanicidan boyunu cm olarak, kilosunu kilogram olarak alin
      * ve vucut kutle endeksini bulun.
@@ -16,4 +18,21 @@ public class Q_13 {
      *
      *
      */
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("lütfen boyunuzu cm cinsinden giriniz : ");
+        double boy = scan.nextDouble();
+        double boyCm = boy / 100 ;
+
+        System.out.println("lütfen kilonuzu kg cinsinden giriniz : ");
+        double kilo = scan.nextDouble();
+
+        double vke = kilo/(boyCm*boyCm) ;
+        System.out.println(vke);
+
+        scan.close();
+
+
+    }
 }
